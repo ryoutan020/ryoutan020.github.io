@@ -1,0 +1,257 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>理系大学生の資産形成ブログ | assets-student.com</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Hiragino Kaku Gothic Pro', 'メイリオ', sans-serif;
+        }
+        
+        body {
+            background-color: #f8f8f8;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: #4a6572;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        nav {
+            background-color: #344955;
+            padding: 0.5rem 0;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin: 0 1rem;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: #f9aa33;
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        main {
+            flex: 2;
+            min-width: 300px;
+        }
+        
+        .article {
+            background-color: white;
+            border-radius: 5px;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .article-title {
+            color: #344955;
+            margin-bottom: 0.5rem;
+        }
+        
+        .article-meta {
+            color: #777;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+        
+        .article-content {
+            margin-bottom: 1rem;
+        }
+        
+        .read-more {
+            display: inline-block;
+            background-color: #f9aa33;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 3px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        
+        .read-more:hover {
+            background-color: #e09424;
+        }
+        
+        aside {
+            flex: 1;
+            min-width: 200px;
+            margin-left: 2rem;
+        }
+        
+        .sidebar-widget {
+            background-color: white;
+            border-radius: 5px;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .widget-title {
+            color: #344955;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #f9aa33;
+        }
+        
+        .recent-posts, .categories {
+            list-style: none;
+        }
+        
+        .recent-posts li, .categories li {
+            margin-bottom: 0.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .recent-posts li:last-child, .categories li:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+        
+        .recent-posts a, .categories a {
+            color: #344955;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .recent-posts a:hover, .categories a:hover {
+            color: #f9aa33;
+        }
+        
+        footer {
+            background-color: #344955;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            
+            aside {
+                margin-left: 0;
+                margin-top: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>理系大学生の資産形成ブログ</h1>
+        <p>assets-student.com</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">ホーム</a></li>
+            <li><a href="#">投資</a></li>
+            <li><a href="#">経済ニュース</a></li>
+            <li><a href="#">旅行</a></li>
+            <li><a href="#">Todo</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <main>
+            <article class="article">
+                <h2 class="article-title">資産形成を始めた理由</h2>
+                <div class="article-meta">投稿日: 2025年5月17日 | カテゴリ: 投資</div>
+                <div class="article-content">
+                    <p>大学生のうちから資産形成を始めることにした理由について書きます。複利の力を早くから活用することで、将来の自分に大きな財産を残せると気づいたのが始まりでした。</p>
+                    <p>このブログでは、投資や経済ニュースの勉強法、旅行の計画、効率的なTodo管理など、理系大学生として資産と時間を有効活用する方法について発信していきます。同じ道を歩む方々と情報を共有できれば嬉しいです。</p>
+                </div>
+                <a href="#" class="read-more">続きを読む</a>
+            </article>
+            
+            <article class="article">
+                <h2 class="article-title">初心者向け投資信託の選び方</h2>
+                <div class="article-meta">投稿日: 2025年5月15日 | カテゴリ: 投資</div>
+                <div class="article-content">
+                    <p>投資初心者にとって、投資信託は始めやすい金融商品の一つです。リスク分散の観点からも優れていますが、種類が多すぎて選ぶのに悩むことも。今回は自分が実際に選んだ投資信託と、その選定基準について解説します。</p>
+                    <p>インデックス投資とアクティブ投資の違い、信託報酬の重要性、長期投資の考え方など、基本的な知識も一緒にお伝えします。</p>
+                </div>
+                <a href="#" class="read-more">続きを読む</a>
+            </article>
+            
+            <article class="article">
+                <h2 class="article-title">九州一周旅行の計画と予算</h2>
+                <div class="article-meta">投稿日: 2025年5月10日 | カテゴリ: 旅行</div>
+                <div class="article-content">
+                    <p>夏休みを利用して計画している九州一周旅行の準備状況を共有します。限られた学生の予算で効率よく回るルート、お得な移動手段、おすすめのスポットなどをまとめました。</p>
+                    <p>旅行も投資のうちと考え、単なる出費ではなく経験への投資として捉えています。それでも賢く計画して、無駄な出費は抑えるようにしています。宿泊先の選び方や予約のコツについても触れていきます。</p>
+                </div>
+                <a href="#" class="read-more">続きを読む</a>
+            </article>
+        </main>
+        
+        <aside>
+            <div class="sidebar-widget">
+                <h3 class="widget-title">プロフィール</h3>
+                <img src="/api/placeholder/150/150" alt="りょうたんのプロフィール画像" style="border-radius: 50%; margin-bottom: 1rem;">
+                <p><strong>りょうたん</strong> | <a href="https://assets-student.com">assets-student.com</a></p>
+                <p>愛知県出身。九州の国立大学工学部に所属。26歳までに資産1000万円を目指し資産形成していく過程や、学業、資格、そして健康的な生活習慣の構築について発信しています。</p>
+            </div>
+            
+            <div class="sidebar-widget">
+                <h3 class="widget-title">最近の投稿</h3>
+                <ul class="recent-posts">
+                    <li><a href="#">資産形成を始めた理由</a></li>
+                    <li><a href="#">初心者向け投資信託の選び方</a></li>
+                    <li><a href="#">九州一周旅行の計画と予算</a></li>
+                </ul>
+            </div>
+            
+            <div class="sidebar-widget">
+                <h3 class="widget-title">カテゴリ</h3>
+                <ul class="categories">
+                    <li><a href="#">投資</a></li>
+                    <li><a href="#">経済ニュース</a></li>
+                    <li><a href="#">旅行</a></li>
+                    <li><a href="#">Todo</a></li>
+                    <li><a href="#">学業</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 assets-student.com All rights reserved.</p>
+    </footer>
+</body>
+</html>
